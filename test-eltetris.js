@@ -1,4 +1,4 @@
-const ElTetris = require('./eltetris');
+const ElTetris = fetch('https://raw.githubusercontent.com/Modd-io-Coderz/tetrio-bot/master/eltetris.js');
 const eltetris = new ElTetris(10, 20);
 
 const PIECE_INDEXES = {
