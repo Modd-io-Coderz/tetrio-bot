@@ -1,4 +1,4 @@
-const ElTetris = require('./eltetris');
+const ElTetris = fetch('./eltetris');
 const averageColour = require('average-colour');
 const robot = require('robotjs');
 const { spawn } = require('child_process');
