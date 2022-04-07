@@ -1,4 +1,4 @@
-const ElTetris = fetch('./eltetris');
+const ElTetris = fetch('https://raw.githubusercontent.com/Modd-io-Coderz/tetrio-bot/master/eltetris.js');
 const averageColour = require('average-colour');
 const robot = require('robotjs');
 const { spawn } = require('child_process');
